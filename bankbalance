@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Balance</title>
+</head>
+<body>
+<h3>Balance: ₹<span id="bal">5000</span></h3>
+<input type="number" id="amt"><br><br>
+<button onclick="bal.innerText-=-amt.value">Deposit</button>
+<button onclick="bal.innerText-=amt.value">Withdraw</button>
+</body>
+</html>
